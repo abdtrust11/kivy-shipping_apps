@@ -18,17 +18,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 🐍 Setup Python
+        id: setup-python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 🔧 Prepare Homebrew (Apple Silicon)
+      # لا تغيّر PATH الخاص بـ Homebrew حتى لا يطغى على pythonLocation
+      - name: 🔧 Homebrew info (no shellenv)
         shell: bash
         run: |
-          if [ -x /opt/homebrew/bin/brew ]; then
-            eval "$(/opt/homebrew/bin/brew shellenv)"
-          fi
-          brew --version
+          /opt/homebrew/bin/brew --version || brew --version
+          echo "pythonLocation=${pythonLocation}"
+          which python3
+          python3 --version
 
       - name: 📦 Install build tools
         shell: bash -l {0}
@@ -37,14 +39,13 @@ jobs:
           brew update
           brew install autoconf automake libtool pkg-config ccache xz sqlite readline openssl@3 zlib || true
 
-      # ✅ خطوة مهمّة: تثبيت باكجات toolchain لنفس python3 الذي سنستخدمه لاحقًا
+      # ✅ استخدم نفس مفسر setup-python دائماً
       - name: 🧰 Install Python deps for kivy-ios toolchain (host)
         shell: bash -l {0}
         run: |
           set -euxo pipefail
-          echo "python3 is: $(which python3)"
-          python3 -m pip install --upgrade pip
-          python3 -m pip install "cython<3.0" sh packaging pbxproj
+          "${pythonLocation}/bin/python" -m pip install --upgrade pip
+          "${pythonLocation}/bin/python" -m pip install "cython<3.0" sh packaging pbxproj
 
       - name: 📦 Cache kivy-ios
         uses: actions/cache@v3
@@ -62,16 +63,16 @@ jobs:
           fi
           cd kivy-ios
           # بناء الوصفات الأساسية
-          python3 ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
+          "${pythonLocation}/bin/python" ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
           # مكتبات بايثون داخل بيئة Python-iOS (تُضمّن في التطبيق)
-          python3 ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
+          "${pythonLocation}/bin/python" ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
 
       - name: 🎯 Create Xcode project
         shell: bash -l {0}
         run: |
           set -euxo pipefail
           cd ~/kivy-ios
-          python3 ./toolchain.py create "$APP_NAME" "${{ github.workspace }}"
+          "${pythonLocation}/bin/python" ./toolchain.py create "$APP_NAME" "${{ github.workspace }}"
           ls -la "$APP_NAME-ios"
 
       - name: 🔨 Build app (Simulator, unsigned)
