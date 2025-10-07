@@ -1,0 +1,198 @@
+ScreenManager:
+    ShippingScreen:
+    SettingsScreen:
+
+<ShippingScreen>:
+    name: "main"
+    md_bg_color: 1, 1, 1, 1
+
+    MDFloatLayout:
+        MDLabel:
+            text: app.ar("حاسبة تكلفة الشحن - أرامكس")
+            halign: "center"
+            font_name: "ArabicFont"
+            pos_hint: {"center_y": 0.95}
+            font_size: "22sp"
+
+        # Country field with search functionality
+
+        ArabicTextField:
+            id: country_field
+            mode: "rectangle"
+            hint_text: app.ar("اكتب أو اختر الدولة")
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.85}
+            size_hint_x: 0.8
+            readonly: False
+            on_focus: root.open_menu() if self.focus else None
+            on_text: root.on_country_text_change(self, self.text)
+
+        # عدد العبايات
+        MDTextField:
+            id: qty_abaya
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            input_filter: "int"
+            pos_hint: {"center_x": 0.5, "center_y": 0.72}
+            size_hint_x: 0.8
+            hint_text: app.ar("عدد العبايات")
+
+        # عدد الطرح
+        MDTextField:
+            id: qty_tarha
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            input_filter: "int"
+            pos_hint: {"center_x": 0.5, "center_y": 0.62}
+            size_hint_x: 0.8
+            hint_text: app.ar("عدد الطرح")
+
+        # عدد النقابات
+        MDTextField:
+            id: qty_niqab
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            input_filter: "int"
+            pos_hint: {"center_x": 0.5, "center_y": 0.52}
+            size_hint_x: 0.8
+            hint_text: app.ar("عدد النقابات")
+
+        # زر الحساب
+        MDRaisedButton:
+            text: app.ar("احسب السعر")
+            font_name: "ArabicFont"
+            pos_hint: {"center_x": 0.5, "center_y": 0.38}
+            on_release: root.calculate()
+
+        # عرض النتيجة
+        MDLabel:
+            text: root.result_text
+            font_name: "ArabicFont"
+            markup: True
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 0, 0.5, 0, 1
+            pos_hint: {"center_y": 0.15}
+            size_hint_y: None
+            height: self.texture_size[1]
+            text_size: self.width, None
+
+        # ملاحظة حول الأوزان
+        MDLabel:
+            text: app.ar("الأوزان المعتبرة: عباية 0.7 كغم، طرحة 0.2 كغم، نقاب 0.1 كغم")
+            font_name: "ArabicFont"
+            halign: "center"
+            font_size: "12sp"
+            pos_hint: {"center_y": 0.05}
+            size_hint_y: None
+            height: self.texture_size[1]
+            text_size: self.width, None
+            theme_text_color: "Secondary"
+
+<SettingsScreen>:
+    name: "settings"
+
+    MDFloatLayout:
+        MDLabel:
+            text: app.ar("إعدادات أسعار الشحن")
+            font_name: "ArabicFont"
+            halign: "center"
+            pos_hint: {"center_y": 0.95}
+            font_size: "22sp"
+
+        # اختيار الدولة
+        MDTextField:
+            id: set_country_field
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.85}
+            size_hint_x: 0.8
+            readonly: True
+            hint_text: app.ar("اختر الدولة")
+            on_focus: root.open_menu() if self.focus else None
+
+        # أول وزن محسوب
+        MDTextField:
+            id: first_limit
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.75}
+            size_hint_x: 0.8
+            hint_text: app.ar("أول وزن محسوب (كجم)")
+            readonly: True
+
+        # السعر الأساسي (أول 0.5 كغم)
+        MDTextField:
+            id: first_rate
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.65}
+            size_hint_x: 0.8
+            hint_text: app.ar("السعر الأساسي (أول 0.5 كغم)")
+            readonly: True
+
+        # سعر الإضافة (0.5 - 10 كغم)
+        MDTextField:
+            id: step_rate_05_10
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.55}
+            size_hint_x: 0.8
+            hint_text: app.ar("سعر الإضافة (0.5 - 10 كغم)")
+            readonly: True
+
+        # سعر الإضافة (10 - 15 كغم)
+        MDTextField:
+            id: step_rate_10_15
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.45}
+            size_hint_x: 0.8
+            hint_text: app.ar("سعر الإضافة (10 - 15 كغم)")
+            readonly: True
+
+        # سعر الإضافة (أكثر من 15 كغم)
+        MDTextField:
+            id: step_rate_over_15
+            mode: "rectangle"
+            font_name: "ArabicFont"
+            halign: "right"
+            pos_hint: {"center_x": 0.5, "center_y": 0.35}
+            size_hint_x: 0.8
+            hint_text: app.ar("سعر الإضافة (أكثر من 15 كغم)")
+            readonly: True
+
+        # زر الحفظ (للعرض فقط)
+        MDRaisedButton:
+            text: app.ar("عرض معلومات الحفظ")
+            font_name: "ArabicFont"
+            pos_hint: {"center_x": 0.5, "center_y": 0.22}
+            on_release: root.save_changes()
+
+        # زر العودة
+        MDTextButton:
+            text: app.ar("العودة")
+            font_name: "ArabicFont"
+            pos_hint: {"center_x": 0.5, "center_y": 0.12}
+            on_release: app.root.current = "main"
+
+        # ملاحظة
+        MDLabel:
+            text: app.ar("البيانات تُقرأ من ملف aramex.xlsx")
+            font_name: "ArabicFont"
+            halign: "center"
+            font_size: "12sp"
+            pos_hint: {"center_y": 0.05}
+            size_hint_y: None
+            height: self.texture_size[1]
+            text_size: self.width, None
+            theme_text_color: "Secondary"

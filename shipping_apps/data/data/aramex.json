@@ -1,0 +1,1826 @@
+[
+  {
+    "Country_EN": "BAHRAIN",
+    "Country_AR": "البحرين",
+    "FirstHalfKg": 40.0,
+    "Add_0_5_to_10": 8.0,
+    "Add_10_to_15": 8.0,
+    "Add_over_15": 8.0
+  },
+  {
+    "Country_EN": "EGYPT",
+    "Country_AR": "مصر",
+    "FirstHalfKg": 40.0,
+    "Add_0_5_to_10": 11.0,
+    "Add_10_to_15": 11.0,
+    "Add_over_15": 11.0
+  },
+  {
+    "Country_EN": "JORDAN",
+    "Country_AR": "الأردن",
+    "FirstHalfKg": 40.0,
+    "Add_0_5_to_10": 11.0,
+    "Add_10_to_15": 11.0,
+    "Add_over_15": 11.0
+  },
+  {
+    "Country_EN": "KUWAIT",
+    "Country_AR": "الكويت",
+    "FirstHalfKg": 40.0,
+    "Add_0_5_to_10": 10.0,
+    "Add_10_to_15": 10.0,
+    "Add_over_15": 10.0
+  },
+  {
+    "Country_EN": "LEBANON",
+    "Country_AR": "لبنان",
+    "FirstHalfKg": 56.0,
+    "Add_0_5_to_10": 14.0,
+    "Add_10_to_15": 14.0,
+    "Add_over_15": 14.0
+  },
+  {
+    "Country_EN": "OMAN",
+    "Country_AR": "عمان",
+    "FirstHalfKg": 37.0,
+    "Add_0_5_to_10": 12.0,
+    "Add_10_to_15": 12.0,
+    "Add_over_15": 12.0
+  },
+  {
+    "Country_EN": "QATAR",
+    "Country_AR": "قطر",
+    "FirstHalfKg": 40.0,
+    "Add_0_5_to_10": 10.0,
+    "Add_10_to_15": 10.0,
+    "Add_over_15": 10.0
+  },
+  {
+    "Country_EN": "SYRIA",
+    "Country_AR": "سوريا",
+    "FirstHalfKg": 56.0,
+    "Add_0_5_to_10": 14.0,
+    "Add_10_to_15": 14.0,
+    "Add_over_15": 14.0
+  },
+  {
+    "Country_EN": "UNITED ARAB EMIRATES",
+    "Country_AR": "الإمارات العربية المتحدة",
+    "FirstHalfKg": 35.0,
+    "Add_0_5_to_10": 10.0,
+    "Add_10_to_15": 10.0,
+    "Add_over_15": 10.0
+  },
+  {
+    "Country_EN": "AFGHANISTAN",
+    "Country_AR": "أفغانستان",
+    "FirstHalfKg": 188.0,
+    "Add_0_5_to_10": 39.9,
+    "Add_10_to_15": 39.9,
+    "Add_over_15": 39.9
+  },
+  {
+    "Country_EN": "ALBANIA",
+    "Country_AR": "ألبانيا",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ALGERIA",
+    "Country_AR": "الجزائر",
+    "FirstHalfKg": 190.6,
+    "Add_0_5_to_10": 75.3,
+    "Add_10_to_15": 75.3,
+    "Add_over_15": 75.3
+  },
+  {
+    "Country_EN": "AMERICAN SAMOA",
+    "Country_AR": "ساموا الأمريكية",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "ANDORRA",
+    "Country_AR": "أندورا",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "ANGOLA",
+    "Country_AR": "أنغولا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ANGUILLA",
+    "Country_AR": "أنغيلا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ANTIGUA",
+    "Country_AR": "أنتيغوا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ARGENTINA",
+    "Country_AR": "الأرجنتين",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "ARMENIA",
+    "Country_AR": "أرمينيا",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "ARUBA",
+    "Country_AR": "أروبا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "AUSTRALIA",
+    "Country_AR": "أستراليا",
+    "FirstHalfKg": 91.0,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "AUSTRIA",
+    "Country_AR": "النمسا",
+    "FirstHalfKg": 146.1,
+    "Add_0_5_to_10": 21.9,
+    "Add_10_to_15": 21.9,
+    "Add_over_15": 21.9
+  },
+  {
+    "Country_EN": "AZERBAIJAN",
+    "Country_AR": "أذربيجان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "AZORES",
+    "Country_AR": "جزر الأزور",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "BAHAMAS",
+    "Country_AR": "جزر البهاما",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BANGLADESH",
+    "Country_AR": "بنجلاديش",
+    "FirstHalfKg": 68.0,
+    "Add_0_5_to_10": 21.1,
+    "Add_10_to_15": 21.1,
+    "Add_over_15": 21.1
+  },
+  {
+    "Country_EN": "BARBADOS",
+    "Country_AR": "بربادوس",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BARBUDA",
+    "Country_AR": "باربودا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BELARUS",
+    "Country_AR": "بيلاروسيا",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "BELGIUM",
+    "Country_AR": "بلجيكا",
+    "FirstHalfKg": 98.5,
+    "Add_0_5_to_10": 18.2,
+    "Add_10_to_15": 18.2,
+    "Add_over_15": 18.2
+  },
+  {
+    "Country_EN": "BELIZE",
+    "Country_AR": "بليز",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "BENIN",
+    "Country_AR": "بنين",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "BERMUDA",
+    "Country_AR": "برمودا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BOLIVIA",
+    "Country_AR": "بوليفيا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "BOSNIA & HERZEGOVINA",
+    "Country_AR": "البوسنة والهرسك",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BOTSWANA",
+    "Country_AR": "بوتسوانا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "BRAZIL",
+    "Country_AR": "البرازيل",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "BRUNEI",
+    "Country_AR": "بروناي",
+    "FirstHalfKg": 173.0,
+    "Add_0_5_to_10": 36.1,
+    "Add_10_to_15": 36.1,
+    "Add_over_15": 36.1
+  },
+  {
+    "Country_EN": "BULGARIA",
+    "Country_AR": "بلغاريا",
+    "FirstHalfKg": 203.7,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "BURKINA FASO",
+    "Country_AR": "بوركينا فاسو",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "BURUNDI",
+    "Country_AR": "بوروندي",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "CAMBODIA",
+    "Country_AR": "كمبوديا",
+    "FirstHalfKg": 80.7,
+    "Add_0_5_to_10": 26.9,
+    "Add_10_to_15": 26.9,
+    "Add_over_15": 26.9
+  },
+  {
+    "Country_EN": "CAMEROON",
+    "Country_AR": "الكاميرون",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "CANADA",
+    "Country_AR": "كندا",
+    "FirstHalfKg": 129.4,
+    "Add_0_5_to_10": 40.7,
+    "Add_10_to_15": 40.7,
+    "Add_over_15": 40.7
+  },
+  {
+    "Country_EN": "CANARY IS",
+    "Country_AR": "الكناري هو",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "CAPE VERDE",
+    "Country_AR": "الرأس الأخضر",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "CAYMAN IS",
+    "Country_AR": "جزيرة كايمان",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "CENTRAL AFRICAN REP",
+    "Country_AR": "جمهورية أفريقيا الوسطى",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "CHAD",
+    "Country_AR": "تشاد",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "CHANNEL ISLANDS",
+    "Country_AR": "جزر القناة",
+    "FirstHalfKg": 121.5,
+    "Add_0_5_to_10": 32.7,
+    "Add_10_to_15": 32.7,
+    "Add_over_15": 32.7
+  },
+  {
+    "Country_EN": "CHILE",
+    "Country_AR": "شيلي",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "CHINA",
+    "Country_AR": "الصين",
+    "FirstHalfKg": 91.0,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "CHRISTMAS IS",
+    "Country_AR": "عيد الميلاد هو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "COCOS KEELING IS",
+    "Country_AR": "كوكوس كيلينغ هو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "COLOMBIA",
+    "Country_AR": "كولومبيا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "COMOROS",
+    "Country_AR": "جزر القمر",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "KIRIBATI",
+    "Country_AR": "كيريباتي",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "KOREA SOUTH",
+    "Country_AR": "كوريا الجنوبية",
+    "FirstHalfKg": 91.0,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "KYRGYZSTAN",
+    "Country_AR": "قيرغيزستان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "LAOS",
+    "Country_AR": "لاوس",
+    "FirstHalfKg": 173.0,
+    "Add_0_5_to_10": 36.5,
+    "Add_10_to_15": 36.5,
+    "Add_over_15": 36.5
+  },
+  {
+    "Country_EN": "LATVIA",
+    "Country_AR": "لاتفيا",
+    "FirstHalfKg": 353.0,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "LESOTHO",
+    "Country_AR": "ليسوتو",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "LIBERIA",
+    "Country_AR": "ليبيريا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "LIBYA",
+    "Country_AR": "ليبيا",
+    "FirstHalfKg": 127.3,
+    "Add_0_5_to_10": 34.6,
+    "Add_10_to_15": 34.6,
+    "Add_over_15": 34.6
+  },
+  {
+    "Country_EN": "LIECHTENSTEIN",
+    "Country_AR": "ليختنشتاين",
+    "FirstHalfKg": 118.5,
+    "Add_0_5_to_10": 21.9,
+    "Add_10_to_15": 21.9,
+    "Add_over_15": 21.9
+  },
+  {
+    "Country_EN": "LITHUANIA",
+    "Country_AR": "ليتوانيا",
+    "FirstHalfKg": 353.0,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "LUXEMBOURG",
+    "Country_AR": "لوكسمبورغ",
+    "FirstHalfKg": 98.5,
+    "Add_0_5_to_10": 18.2,
+    "Add_10_to_15": 18.2,
+    "Add_over_15": 18.2
+  },
+  {
+    "Country_EN": "MACAU",
+    "Country_AR": "ماكاو",
+    "FirstHalfKg": 112.9,
+    "Add_0_5_to_10": 29.0,
+    "Add_10_to_15": 29.0,
+    "Add_over_15": 29.0
+  },
+  {
+    "Country_EN": "MACEDONIA",
+    "Country_AR": "مقدونيا",
+    "FirstHalfKg": 353.0,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "MADAGASCAR",
+    "Country_AR": "مدغشقر",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "MADEIRA IS",
+    "Country_AR": "ماديرا",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "MALAWI",
+    "Country_AR": "ملاوي",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "MALAYSIA",
+    "Country_AR": "ماليزيا",
+    "FirstHalfKg": 92.4,
+    "Add_0_5_to_10": 17.3,
+    "Add_10_to_15": 17.3,
+    "Add_over_15": 17.3
+  },
+  {
+    "Country_EN": "MALDIVES",
+    "Country_AR": "جزر المالديف",
+    "FirstHalfKg": 264.1,
+    "Add_0_5_to_10": 56.3,
+    "Add_10_to_15": 56.3,
+    "Add_over_15": 56.3
+  },
+  {
+    "Country_EN": "MALI",
+    "Country_AR": "مالي",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "MALTA",
+    "Country_AR": "مالطا",
+    "FirstHalfKg": 115.4,
+    "Add_0_5_to_10": 31.1,
+    "Add_10_to_15": 31.1,
+    "Add_over_15": 31.1
+  },
+  {
+    "Country_EN": "MARTINIQUE",
+    "Country_AR": "مارتينيك",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "MAURITANIA",
+    "Country_AR": "موريتانيا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "MAURITIUS",
+    "Country_AR": "موريشيوس",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "MAYOTTE",
+    "Country_AR": "مايوت",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "MEXICO",
+    "Country_AR": "المكسيك",
+    "FirstHalfKg": 159.0,
+    "Add_0_5_to_10": 108.3,
+    "Add_10_to_15": 108.3,
+    "Add_over_15": 108.3
+  },
+  {
+    "Country_EN": "MOLDOVA",
+    "Country_AR": "مولدوفا",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "MONACO",
+    "Country_AR": "موناكو",
+    "FirstHalfKg": 118.5,
+    "Add_0_5_to_10": 19.5,
+    "Add_10_to_15": 19.5,
+    "Add_over_15": 19.5
+  },
+  {
+    "Country_EN": "MONTENEGRO",
+    "Country_AR": "الجبل الأسود",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "MONTSERRAT",
+    "Country_AR": "مونتسيرات",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "MOROCCO",
+    "Country_AR": "المغرب",
+    "FirstHalfKg": 108.3,
+    "Add_0_5_to_10": 20.6,
+    "Add_10_to_15": 20.6,
+    "Add_over_15": 20.6
+  },
+  {
+    "Country_EN": "MOZAMBIQUE",
+    "Country_AR": "موزمبيق",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "MYANMAR",
+    "Country_AR": "ميانمار",
+    "FirstHalfKg": 173.0,
+    "Add_0_5_to_10": 36.5,
+    "Add_10_to_15": 36.5,
+    "Add_over_15": 36.5
+  },
+  {
+    "Country_EN": "NAMIBIA",
+    "Country_AR": "ناميبيا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 41.0,
+    "Add_10_to_15": 41.0,
+    "Add_over_15": 41.0
+  },
+  {
+    "Country_EN": "NAURU",
+    "Country_AR": "ناورو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "NEPAL",
+    "Country_AR": "نيبال",
+    "FirstHalfKg": 139.7,
+    "Add_0_5_to_10": 63.4,
+    "Add_10_to_15": 63.4,
+    "Add_over_15": 63.4
+  },
+  {
+    "Country_EN": "NETHERLANDS",
+    "Country_AR": "هولندا",
+    "FirstHalfKg": 115.4,
+    "Add_0_5_to_10": 17.0,
+    "Add_10_to_15": 17.0,
+    "Add_over_15": 17.0
+  },
+  {
+    "Country_EN": "NETHERLANDS ANTILLES",
+    "Country_AR": "هولندا العتيقة",
+    "FirstHalfKg": 216.9,
+    "Add_0_5_to_10": 45.8,
+    "Add_10_to_15": 45.8,
+    "Add_over_15": 45.8
+  },
+  {
+    "Country_EN": "NEW CALEDONIA",
+    "Country_AR": "كاليدونيا الجديدة",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "NEW ZEALAND",
+    "Country_AR": "نيوزيلندا",
+    "FirstHalfKg": 91.0,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "NICARAGUA",
+    "Country_AR": "نيكاراغوا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "NIGER",
+    "Country_AR": "النيجر",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 41.0,
+    "Add_10_to_15": 41.0,
+    "Add_over_15": 41.0
+  },
+  {
+    "Country_EN": "NIGERIA",
+    "Country_AR": "نيجيريا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "NORTHERN IRELAND",
+    "Country_AR": "أيرلندا الشمالية",
+    "FirstHalfKg": 121.8,
+    "Add_0_5_to_10": 14.9,
+    "Add_10_to_15": 14.9,
+    "Add_over_15": 14.9
+  },
+  {
+    "Country_EN": "NORTHERN MARIANA IS",
+    "Country_AR": "شمال ماريانا",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "NORWAY",
+    "Country_AR": "النرويج",
+    "FirstHalfKg": 158.4,
+    "Add_0_5_to_10": 41.2,
+    "Add_10_to_15": 41.2,
+    "Add_over_15": 41.2
+  },
+  {
+    "Country_EN": "PAKISTAN",
+    "Country_AR": "باكستان",
+    "FirstHalfKg": 73.8,
+    "Add_0_5_to_10": 17.6,
+    "Add_10_to_15": 17.6,
+    "Add_over_15": 17.6
+  },
+  {
+    "Country_EN": "PALAU",
+    "Country_AR": "بالاو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "PALESTINE",
+    "Country_AR": "فلسطين",
+    "FirstHalfKg": 165.4,
+    "Add_0_5_to_10": 14.8,
+    "Add_10_to_15": 14.8,
+    "Add_over_15": 14.8
+  },
+  {
+    "Country_EN": "PANAMA",
+    "Country_AR": "بنما",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "PAPUA NEW GUINEA",
+    "Country_AR": "بابوا غينيا الجديدة",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "PARAGUAY",
+    "Country_AR": "باراغواي",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "PERU",
+    "Country_AR": "بيرو",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "PHILIPPINES",
+    "Country_AR": "فيلبيني",
+    "FirstHalfKg": 92.4,
+    "Add_0_5_to_10": 17.3,
+    "Add_10_to_15": 17.3,
+    "Add_over_15": 17.3
+  },
+  {
+    "Country_EN": "PITCAIRN IS",
+    "Country_AR": "بيتكيرن",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "POLAND",
+    "Country_AR": "بولندا",
+    "FirstHalfKg": 175.9,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "PORTUGAL",
+    "Country_AR": "البرتغال",
+    "FirstHalfKg": 124.6,
+    "Add_0_5_to_10": 38.8,
+    "Add_10_to_15": 38.8,
+    "Add_over_15": 38.8
+  },
+  {
+    "Country_EN": "PUERTO RICO",
+    "Country_AR": "بورتوريكو",
+    "FirstHalfKg": 181.0,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "REPUBLIC OF KOSOVO",
+    "Country_AR": "جمهورية كوسوفو",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "CONGO",
+    "Country_AR": "الكونغو",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "COOK IS",
+    "Country_AR": "كوك هو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "COSTA RICA",
+    "Country_AR": "كوستاريكا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "CROATIA",
+    "Country_AR": "كرواتيا",
+    "FirstHalfKg": 353.0,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "CYPRUS",
+    "Country_AR": "قبرص",
+    "FirstHalfKg": 51.8,
+    "Add_0_5_to_10": 8.7,
+    "Add_10_to_15": 8.7,
+    "Add_over_15": 8.7
+  },
+  {
+    "Country_EN": "CZECH REPUBLIC",
+    "Country_AR": "الجمهورية التشيكية",
+    "FirstHalfKg": 175.9,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "DEM REP OF THE CONGO",
+    "Country_AR": "جمهورية الكونغو الديمقراطية",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "DENMARK",
+    "Country_AR": "الدنمارك",
+    "FirstHalfKg": 104.6,
+    "Add_0_5_to_10": 24.3,
+    "Add_10_to_15": 24.3,
+    "Add_over_15": 24.3
+  },
+  {
+    "Country_EN": "DJIBOUTI",
+    "Country_AR": "جيبوتي",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "DOMINICA",
+    "Country_AR": "دومينيكا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "DOMINICAN REPUBLIC",
+    "Country_AR": "جمهورية الدومينيكان",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ECUADOR",
+    "Country_AR": "الاكوادور",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "EL SALVADOR",
+    "Country_AR": "السلفادور",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "EQUATORIAL GUINEA",
+    "Country_AR": "غينيا الاستوائية",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ERITREA",
+    "Country_AR": "إريتريا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "ESTONIA",
+    "Country_AR": "إستونيا",
+    "FirstHalfKg": 353.0,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "ETHIOPIA",
+    "Country_AR": "أثيوبيا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "FAROE IS",
+    "Country_AR": "جزر فارو",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "FIJI",
+    "Country_AR": "فيجي",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "FINLAND",
+    "Country_AR": "فنلندا",
+    "FirstHalfKg": 166.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "FRANCE",
+    "Country_AR": "فرنسا",
+    "FirstHalfKg": 118.5,
+    "Add_0_5_to_10": 19.5,
+    "Add_10_to_15": 19.5,
+    "Add_over_15": 19.5
+  },
+  {
+    "Country_EN": "FRENCH GUIANA",
+    "Country_AR": "التوجيه الفرنسي",
+    "FirstHalfKg": 216.9,
+    "Add_0_5_to_10": 45.8,
+    "Add_10_to_15": 45.8,
+    "Add_over_15": 45.8
+  },
+  {
+    "Country_EN": "FRENCH POLYNESIA",
+    "Country_AR": "بولينيزيا الفرنسية",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "GABON",
+    "Country_AR": "الجابون",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "GAMBIA",
+    "Country_AR": "غامبيا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "GEORGIA",
+    "Country_AR": "جورجيا",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "GERMANY",
+    "Country_AR": "ألمانيا",
+    "FirstHalfKg": 127.7,
+    "Add_0_5_to_10": 18.2,
+    "Add_10_to_15": 18.2,
+    "Add_over_15": 18.2
+  },
+  {
+    "Country_EN": "GHANA",
+    "Country_AR": "غانا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "GIBRALTAR",
+    "Country_AR": "جبل طارق",
+    "FirstHalfKg": 149.2,
+    "Add_0_5_to_10": 37.6,
+    "Add_10_to_15": 37.6,
+    "Add_over_15": 37.6
+  },
+  {
+    "Country_EN": "GREECE",
+    "Country_AR": "اليونان",
+    "FirstHalfKg": 101.6,
+    "Add_0_5_to_10": 25.5,
+    "Add_10_to_15": 25.5,
+    "Add_over_15": 25.5
+  },
+  {
+    "Country_EN": "GREENLAND",
+    "Country_AR": "جرينلاند",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "GRENADA",
+    "Country_AR": "غرينادا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "GUADELOUPE",
+    "Country_AR": "جوادلوب",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "GUAM",
+    "Country_AR": "غوام",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "GUATEMALA",
+    "Country_AR": "غواتيمالا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "GUERNSEY",
+    "Country_AR": "غيرنسي",
+    "FirstHalfKg": 121.5,
+    "Add_0_5_to_10": 32.7,
+    "Add_10_to_15": 32.7,
+    "Add_over_15": 32.7
+  },
+  {
+    "Country_EN": "GUINEA",
+    "Country_AR": "غينيا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "GUINEA BISSAU",
+    "Country_AR": "غينيا بيساو",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "GUYANA",
+    "Country_AR": "غيانا",
+    "FirstHalfKg": 216.9,
+    "Add_0_5_to_10": 41.0,
+    "Add_10_to_15": 41.0,
+    "Add_over_15": 41.0
+  },
+  {
+    "Country_EN": "HAITI",
+    "Country_AR": "هايتي",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "HONDURAS",
+    "Country_AR": "هندوراس",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "HONG KONG",
+    "Country_AR": "هونج كونج",
+    "FirstHalfKg": 82.2,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "HUNGARY",
+    "Country_AR": "هنغاريا",
+    "FirstHalfKg": 175.9,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "ICELAND",
+    "Country_AR": "أيسلندا",
+    "FirstHalfKg": 229.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "INDIA",
+    "Country_AR": "الهند",
+    "FirstHalfKg": 27.0,
+    "Add_0_5_to_10": 16.4,
+    "Add_10_to_15": 16.4,
+    "Add_over_15": 16.4
+  },
+  {
+    "Country_EN": "INDONESIA",
+    "Country_AR": "أندونيسيا",
+    "FirstHalfKg": 92.4,
+    "Add_0_5_to_10": 17.3,
+    "Add_10_to_15": 17.3,
+    "Add_over_15": 17.3
+  },
+  {
+    "Country_EN": "IRAN",
+    "Country_AR": "إيران",
+    "FirstHalfKg": 64.1,
+    "Add_0_5_to_10": 7.8,
+    "Add_10_to_15": 7.8,
+    "Add_over_15": 7.8
+  },
+  {
+    "Country_EN": "IRAQ",
+    "Country_AR": "العراق",
+    "FirstHalfKg": 136.7,
+    "Add_0_5_to_10": 10.6,
+    "Add_10_to_15": 10.6,
+    "Add_over_15": 10.6
+  },
+  {
+    "Country_EN": "IRELAND",
+    "Country_AR": "أيرلندا",
+    "FirstHalfKg": 135.3,
+    "Add_0_5_to_10": 24.3,
+    "Add_10_to_15": 24.3,
+    "Add_over_15": 24.3
+  },
+  {
+    "Country_EN": "ISLE OF MAN",
+    "Country_AR": "جزيرة مان",
+    "FirstHalfKg": 213.8,
+    "Add_0_5_to_10": 93.2,
+    "Add_10_to_15": 93.2,
+    "Add_over_15": 93.2
+  },
+  {
+    "Country_EN": "ITALY",
+    "Country_AR": "إيطاليا",
+    "FirstHalfKg": 115.4,
+    "Add_0_5_to_10": 24.3,
+    "Add_10_to_15": 24.3,
+    "Add_over_15": 24.3
+  },
+  {
+    "Country_EN": "IVORY COAST",
+    "Country_AR": "ساحل العاج",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "JAMAICA",
+    "Country_AR": "جامايكا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "JAPAN",
+    "Country_AR": "اليابان",
+    "FirstHalfKg": 151.0,
+    "Add_0_5_to_10": 32.5,
+    "Add_10_to_15": 32.5,
+    "Add_over_15": 32.5
+  },
+  {
+    "Country_EN": "JERSEY",
+    "Country_AR": "جيرسي",
+    "FirstHalfKg": 121.5,
+    "Add_0_5_to_10": 32.7,
+    "Add_10_to_15": 32.7,
+    "Add_over_15": 32.7
+  },
+  {
+    "Country_EN": "KAZAKHSTAN",
+    "Country_AR": "كازاخستان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "KENYA",
+    "Country_AR": "كينيا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "REPUBLIC OF SERBIA",
+    "Country_AR": "جمهورية صربيا",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "REUNION IS",
+    "Country_AR": "ريونيون هو",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "ROMANIA",
+    "Country_AR": "رومانيا",
+    "FirstHalfKg": 203.7,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "RUSSIA",
+    "Country_AR": "روسيا",
+    "FirstHalfKg": 186.1,
+    "Add_0_5_to_10": 39.6,
+    "Add_10_to_15": 39.6,
+    "Add_over_15": 39.6
+  },
+  {
+    "Country_EN": "RWANDA",
+    "Country_AR": "رواندا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "SAMOA",
+    "Country_AR": "ساموا",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "SAN MARINO",
+    "Country_AR": "سان مارينو",
+    "FirstHalfKg": 115.4,
+    "Add_0_5_to_10": 24.3,
+    "Add_10_to_15": 24.3,
+    "Add_over_15": 24.3
+  },
+  {
+    "Country_EN": "SCOTLAND",
+    "Country_AR": "اسكتلندا",
+    "FirstHalfKg": 100.3,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "SENEGAL",
+    "Country_AR": "السنغال",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.2,
+    "Add_10_to_15": 43.2,
+    "Add_over_15": 43.2
+  },
+  {
+    "Country_EN": "SEYCHELLES",
+    "Country_AR": "سيشيل",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "SIERRA LEONE",
+    "Country_AR": "سيراليون",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "SINGAPORE",
+    "Country_AR": "سنغافورة",
+    "FirstHalfKg": 73.4,
+    "Add_0_5_to_10": 17.8,
+    "Add_10_to_15": 17.8,
+    "Add_over_15": 17.8
+  },
+  {
+    "Country_EN": "SLOVAKIA",
+    "Country_AR": "سلوفاكيا",
+    "FirstHalfKg": 203.7,
+    "Add_0_5_to_10": 34.9,
+    "Add_10_to_15": 34.9,
+    "Add_over_15": 34.9
+  },
+  {
+    "Country_EN": "SLOVENIA",
+    "Country_AR": "سلوفينيا",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.1,
+    "Add_10_to_15": 43.1,
+    "Add_over_15": 43.1
+  },
+  {
+    "Country_EN": "SOLOMON IS",
+    "Country_AR": "سليمان هو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "SOMALIA",
+    "Country_AR": "الصومال",
+    "FirstHalfKg": 236.0,
+    "Add_0_5_to_10": 71.8,
+    "Add_10_to_15": 71.8,
+    "Add_over_15": 71.8
+  },
+  {
+    "Country_EN": "SOUTH AFRICA",
+    "Country_AR": "جنوب أفريقيا",
+    "FirstHalfKg": 135.2,
+    "Add_0_5_to_10": 41.7,
+    "Add_10_to_15": 41.7,
+    "Add_over_15": 41.7
+  },
+  {
+    "Country_EN": "SPAIN",
+    "Country_AR": "إسبانيا",
+    "FirstHalfKg": 83.1,
+    "Add_0_5_to_10": 25.5,
+    "Add_10_to_15": 25.5,
+    "Add_over_15": 25.5
+  },
+  {
+    "Country_EN": "SPAIN ( CEUTA & MELILA )",
+    "Country_AR": "إسبانيا ( سبتة و مليلة )",
+    "FirstHalfKg": 206.1,
+    "Add_0_5_to_10": 25.5,
+    "Add_10_to_15": 25.5,
+    "Add_over_15": 25.5
+  },
+  {
+    "Country_EN": "SRI LANKA",
+    "Country_AR": "سريلانكا",
+    "FirstHalfKg": 60.6,
+    "Add_0_5_to_10": 11.8,
+    "Add_10_to_15": 11.8,
+    "Add_over_15": 11.8
+  },
+  {
+    "Country_EN": "ST KITTS & NEVIS",
+    "Country_AR": "سانت كيتس ونيفيس",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ST LUCIA",
+    "Country_AR": "سانت لوسيا",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ST VINCENT & GRENADINE",
+    "Country_AR": "سانت فنسنت وجزر غرينادين",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "SUDAN",
+    "Country_AR": "السودان",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "SURINAME",
+    "Country_AR": "سورينام",
+    "FirstHalfKg": 216.9,
+    "Add_0_5_to_10": 41.0,
+    "Add_10_to_15": 41.0,
+    "Add_over_15": 41.0
+  },
+  {
+    "Country_EN": "SWAZILAND",
+    "Country_AR": "سوازيلاند",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "SWEDEN",
+    "Country_AR": "السويد",
+    "FirstHalfKg": 132.3,
+    "Add_0_5_to_10": 21.9,
+    "Add_10_to_15": 21.9,
+    "Add_over_15": 21.9
+  },
+  {
+    "Country_EN": "SWITZERLAND",
+    "Country_AR": "سويسرا",
+    "FirstHalfKg": 118.5,
+    "Add_0_5_to_10": 21.9,
+    "Add_10_to_15": 21.9,
+    "Add_over_15": 21.9
+  },
+  {
+    "Country_EN": "TAIWAN",
+    "Country_AR": "تايوان",
+    "FirstHalfKg": 91.0,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "TAJIKISTAN",
+    "Country_AR": "طاجيكستان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "TANZANIA",
+    "Country_AR": "تنزانيا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "THAILAND",
+    "Country_AR": "تايلاند",
+    "FirstHalfKg": 92.4,
+    "Add_0_5_to_10": 17.3,
+    "Add_10_to_15": 17.3,
+    "Add_over_15": 17.3
+  },
+  {
+    "Country_EN": "TOGO",
+    "Country_AR": "توغو",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "TONGA",
+    "Country_AR": "يبني",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "TRINIDAD & TOBAGO",
+    "Country_AR": "ترينيداد وتوباغو",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "TUNISIA",
+    "Country_AR": "تونس",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 41.0,
+    "Add_10_to_15": 41.0,
+    "Add_over_15": 41.0
+  },
+  {
+    "Country_EN": "TURKEY",
+    "Country_AR": "ديك رومى",
+    "FirstHalfKg": 54.2,
+    "Add_0_5_to_10": 11.5,
+    "Add_10_to_15": 11.5,
+    "Add_over_15": 11.5
+  },
+  {
+    "Country_EN": "TURKMENISTAN",
+    "Country_AR": "تركمانستان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 60.0,
+    "Add_10_to_15": 60.0,
+    "Add_over_15": 60.0
+  },
+  {
+    "Country_EN": "TURKS & CAICOS IS",
+    "Country_AR": "جزر تركس وكايكوس",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "TUVALU",
+    "Country_AR": "توفالو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "UGANDA",
+    "Country_AR": "أوغندا",
+    "FirstHalfKg": 128.7,
+    "Add_0_5_to_10": 40.5,
+    "Add_10_to_15": 40.5,
+    "Add_over_15": 40.5
+  },
+  {
+    "Country_EN": "UKRAINE",
+    "Country_AR": "أوكرانيا",
+    "FirstHalfKg": 531.6,
+    "Add_0_5_to_10": 35.3,
+    "Add_10_to_15": 35.3,
+    "Add_over_15": 35.3
+  },
+  {
+    "Country_EN": "UNITED KINGDOM",
+    "Country_AR": "المملكة المتحدة",
+    "FirstHalfKg": 48.3,
+    "Add_0_5_to_10": 8.7,
+    "Add_10_to_15": 8.7,
+    "Add_over_15": 8.7
+  },
+  {
+    "Country_EN": "UNITED STATES",
+    "Country_AR": "الولايات المتحدة",
+    "FirstHalfKg": 84.0,
+    "Add_0_5_to_10": 17.6,
+    "Add_10_to_15": 17.6,
+    "Add_over_15": 17.6
+  },
+  {
+    "Country_EN": "URUGUAY",
+    "Country_AR": "أوروغواي",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "UZBEKISTAN",
+    "Country_AR": "أوزبكستان",
+    "FirstHalfKg": 291.5,
+    "Add_0_5_to_10": 59.5,
+    "Add_10_to_15": 59.5,
+    "Add_over_15": 59.5
+  },
+  {
+    "Country_EN": "VANUATU",
+    "Country_AR": "فانواتو",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "VATICAN CITY",
+    "Country_AR": "مدينة الفاتيكان",
+    "FirstHalfKg": 115.4,
+    "Add_0_5_to_10": 24.3,
+    "Add_10_to_15": 24.3,
+    "Add_over_15": 24.3
+  },
+  {
+    "Country_EN": "VENEZUELA",
+    "Country_AR": "فنزويلا",
+    "FirstHalfKg": 158.7,
+    "Add_0_5_to_10": 44.6,
+    "Add_10_to_15": 44.6,
+    "Add_over_15": 44.6
+  },
+  {
+    "Country_EN": "VIETNAM",
+    "Country_AR": "فيتنام",
+    "FirstHalfKg": 114.4,
+    "Add_0_5_to_10": 34.9,
+    "Add_10_to_15": 34.9,
+    "Add_over_15": 34.9
+  },
+  {
+    "Country_EN": "VIRGIN ISLANDS, BRITISH",
+    "Country_AR": "جزر فيرجن، البريطانية",
+    "FirstHalfKg": 213.1,
+    "Add_0_5_to_10": 44.7,
+    "Add_10_to_15": 44.7,
+    "Add_over_15": 44.7
+  },
+  {
+    "Country_EN": "VIRGIN ISLANDS, U.S.",
+    "Country_AR": "جزر فيرجن، الولايات المتحدة",
+    "FirstHalfKg": 177.9,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "WALES",
+    "Country_AR": "ويلز",
+    "FirstHalfKg": 100.3,
+    "Add_0_5_to_10": 16.1,
+    "Add_10_to_15": 16.1,
+    "Add_over_15": 16.1
+  },
+  {
+    "Country_EN": "WALLIS & FUTUNA IS",
+    "Country_AR": "واليس وفوتونا",
+    "FirstHalfKg": 202.2,
+    "Add_0_5_to_10": 37.7,
+    "Add_10_to_15": 37.7,
+    "Add_over_15": 37.7
+  },
+  {
+    "Country_EN": "YUGOSLAVIA",
+    "Country_AR": "يوغوسلافيا",
+    "FirstHalfKg": 581.4,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ZAMBIA",
+    "Country_AR": "زامبيا",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  },
+  {
+    "Country_EN": "ZIMBABWE",
+    "Country_AR": "زيمبابوي",
+    "FirstHalfKg": 132.1,
+    "Add_0_5_to_10": 43.6,
+    "Add_10_to_15": 43.6,
+    "Add_over_15": 43.6
+  }
+]
