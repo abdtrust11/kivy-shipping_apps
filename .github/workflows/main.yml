@@ -7,6 +7,7 @@ on:
 
 env:
   APP_NAME: ShippingApp
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
 
 jobs:
   build-ios:
@@ -36,11 +37,14 @@ jobs:
           brew update
           brew install autoconf automake libtool pkg-config ccache xz sqlite readline openssl@3 zlib || true
 
+      # ✅ خطوة مهمّة: تثبيت باكجات toolchain لنفس python3 الذي سنستخدمه لاحقًا
       - name: 🧰 Install Python deps for kivy-ios toolchain (host)
         shell: bash -l {0}
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install "cython<3.0" sh packaging pbxproj
+          set -euxo pipefail
+          echo "python3 is: $(which python3)"
+          python3 -m pip install --upgrade pip
+          python3 -m pip install "cython<3.0" sh packaging pbxproj
 
       - name: 📦 Cache kivy-ios
         uses: actions/cache@v3
@@ -59,7 +63,7 @@ jobs:
           cd kivy-ios
           # بناء الوصفات الأساسية
           python3 ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
-          # مكتبات بايثون داخل بيئة Python-iOS
+          # مكتبات بايثون داخل بيئة Python-iOS (تُضمّن في التطبيق)
           python3 ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
 
       - name: 🎯 Create Xcode project
