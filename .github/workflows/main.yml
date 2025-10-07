@@ -45,7 +45,8 @@ jobs:
         run: |
           set -euxo pipefail
           "${pythonLocation}/bin/python" -m pip install --upgrade pip
-          "${pythonLocation}/bin/python" -m pip install "cython<3.0" sh packaging pbxproj
+          "${pythonLocation}/bin/python" -m pip install \
+            "cython<3.0" sh packaging pbxproj cookiecutter Jinja2
 
       - name: 📦 Cache kivy-ios
         uses: actions/cache@v3
