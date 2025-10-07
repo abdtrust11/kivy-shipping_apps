@@ -53,11 +53,23 @@ jobs:
             git clone https://github.com/kivy/kivy-ios
           fi
           cd kivy-ios
-          # تأكد من وجود بايثون وركائب SDL الأساسية
-          ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
+          # تشغيل via python لتفادي صلاحيات التنفيذ
+          python3 ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
+          python3 ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
+            
+        # shell: bash -l {0}
+        # run: |
+        #   set -euxo pipefail
+        #   cd ~
+        #   if [ ! -d "kivy-ios" ]; then
+        #     git clone https://github.com/kivy/kivy-ios
+        #   fi
+        #   cd kivy-ios
+        #   # تأكد من وجود بايثون وركائب SDL الأساسية
+        #   ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
 
-          # تثبيت مكتبات بايثون داخل بيئة Python-iOS (وليس pip للنظام)
-          ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
+        #   # تثبيت مكتبات بايثون داخل بيئة Python-iOS (وليس pip للنظام)
+        #   ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
 
       - name: 🎯 Create Xcode project
         shell: bash -l {0}
