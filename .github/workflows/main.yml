@@ -2,63 +2,92 @@ name: Build iOS App
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   workflow_dispatch:
+
+env:
+  APP_NAME: ShippingApp
 
 jobs:
   build-ios:
-    runs-on: macos-latest
-    
+    runs-on: macos-14
+
     steps:
-    - name: 📥 Checkout code
-      uses: actions/checkout@v3
-    
-    - name: 🐍 Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    
-    - name: 🔧 Install build tools
-      run: |
-        brew install autoconf automake libtool pkg-config
-        brew install openssl readline sqlite3 xz zlib
-    
-    - name: 📦 Cache kivy-ios
-      uses: actions/cache@v3
-      with:
-        path: ~/kivy-ios
-        key: kivy-ios-build
-    
-    - name: 🏗️ Build kivy-ios
-      run: |
-        cd ~
-        if [ ! -d "kivy-ios" ]; then
-          git clone https://github.com/kivy/kivy-ios
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🔧 Prepare Homebrew (Apple Silicon)
+        shell: bash
+        run: |
+          if [ -x /opt/homebrew/bin/brew ]; then
+            echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.bash_profile
+            eval "$(/opt/homebrew/bin/brew shellenv)"
+          fi
+          brew --version
+
+      - name: 📦 Install build tools
+        shell: bash -l {0}
+        run: |
+          set -euxo pipefail
+          brew update
+          # حزم مطلوبة لـ kivy-ios
+          brew install autoconf automake libtool pkg-config ccache xz sqlite readline openssl@3 zlib || true
+
+      - name: 📦 Cache kivy-ios
+        uses: actions/cache@v3
+        with:
+          path: ~/kivy-ios
+          key: kivy-ios-${{ runner.os }}-macos14-v1
+
+      - name: 🏗️ Fetch & build kivy-ios recipes
+        shell: bash -l {0}
+        run: |
+          set -euxo pipefail
+          cd ~
+          if [ ! -d "kivy-ios" ]; then
+            git clone https://github.com/kivy/kivy-ios
+          fi
           cd kivy-ios
-          ./toolchain.py build python3 kivy
-        fi
-    
-    - name: 📚 Install dependencies
-      run: |
-        mkdir -p site-packages
-        pip3 install --target=site-packages arabic-reshaper python-bidi
-    
-    - name: 🎯 Create Xcode project
-      run: |
-        cd ~/kivy-ios
-        ./toolchain.py create ShippingApp ${{ github.workspace }}/shipping_apps
-    
-    - name: 🔨 Build app
-      run: |
-        cd ~/kivy-ios/ShippingApp-ios
-        xcodebuild -project ShippingApp.xcodeproj \
-          -scheme ShippingApp \
-          -sdk iphonesimulator \
-          -configuration Release \
-          CODE_SIGNING_ALLOWED=NO
-    
-    - name: 📤 Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: ShippingApp-iOS
-        path: ~/kivy-ios/ShippingApp-ios/build/
+          # تأكد من وجود بايثون وركائب SDL الأساسية
+          ./toolchain.py build python3 sdl2 sdl2_image sdl2_mixer sdl2_ttf pillow pyobjus kivy
+
+          # تثبيت مكتبات بايثون داخل بيئة Python-iOS (وليس pip للنظام)
+          ./toolchain.py pip install "cython<3.0" arabic-reshaper python-bidi
+
+      - name: 🎯 Create Xcode project
+        shell: bash -l {0}
+        run: |
+          set -euxo pipefail
+          cd ~/kivy-ios
+          # استخدم مجلد كودك كمصدر للتطبيق
+          ./toolchain.py create "$APP_NAME" "${{ github.workspace }}"
+          ls -la "$APP_NAME-ios"
+
+      - name: 🔨 Build app (Simulator, unsigned)
+        shell: bash -l {0}
+        run: |
+          set -euxo pipefail
+          cd ~/kivy-ios/"$APP_NAME"-ios
+          # نبني للمحاكي مع وجهة واضحة ومسار مخرجات محدد
+          xcodebuild \
+            -project "$APP_NAME.xcodeproj" \
+            -scheme "$APP_NAME" \
+            -configuration Release \
+            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            CODE_SIGNING_ALLOWED=NO \
+            -derivedDataPath build
+
+          echo "Build products:"
+          find build -maxdepth 3 -type d -name "*.app" -print || true
+
+      - name: 📤 Upload artifact (.app)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.APP_NAME }}-iOS-simulator
+          path: |
+            ~/kivy-ios/${{ env.APP_NAME }}-ios/build/Build/Products/Release-iphonesimulator/*.app
